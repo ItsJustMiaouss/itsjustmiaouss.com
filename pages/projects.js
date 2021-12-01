@@ -60,12 +60,13 @@ export default function Projects({ repositories }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
 
   const repositories = await fetch('https://api.github.com/users/ItsJustMiaouss/repos')
     .then(r => r.json())
 
   return {
-    props: { repositories }
+    props: { repositories },
+    revalidate: 120
   }
 }
