@@ -11,7 +11,7 @@ export const Footer = () => {
           <a href="https://steamcommunity.com/id/ItsJustMiaouss" rel="noreferrer" target="_blank" title="Steam"><i className="fab fa-steam"></i></a>
           <a href="https://twitter.com/ItsJustMiaouss" target="_blank" rel="noreferrer" title="Twitter"><i className="fab fa-twitter"></i></a>
           <Link href="/discord">
-            <a rel="noreferrer"><i className="fab fa-discord"></i></a>
+            <a rel="noreferrer" title="Discord"><i className="fab fa-discord"></i></a>
           </Link>
           <a href="https://status.itsjustmiaouss.com" target="_blank" rel="noreferrer" title="Status page"><i className="far fa-signal"></i></a>
         </div>
