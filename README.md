@@ -37,3 +37,5 @@ To learn more about Next.js, take a look at the following resources:
 If you have any ideas for improvement or if you find a bug, please [open an issue](https://github.com/ItsJustMiaouss/itsjustmiaouss-com/issues).
 
 ## License
+
+[MIT LICENSE](https://github.com/ItsJustMiaouss/itsjustmiaouss.com/blob/main/LICENSE.md)
