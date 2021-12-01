@@ -33,7 +33,7 @@ export default function About() {
 
             <div className="text-lg">
               <p>I use many programming and structuring languages like HTML, CSS, PHP, Javascript, Java, C#, Lua...</p>
-              <p>I also use frameworks like Bootstrap, Laravel, Electron, VueJS and NodeJS.</p>
+              <p>I also use frameworks like Bootstrap, TailwindCSS, Laravel, Electron, VueJS, NextJS and NodeJS.</p>
             </div>
           </div>
 
