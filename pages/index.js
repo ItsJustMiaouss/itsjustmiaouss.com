@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
@@ -29,7 +30,11 @@ export default function Home() {
           <p className="text-gray-300 text-3xl  md:text-4xl mt-6">Hi, I'm <i className="twa twa-wave"></i></p>
           <h1 className="text-4xl md:text-6xl">ItsJustMiaouss</h1>
           <p className="text-gray-300 mt-3 text-base hidden md:block">I'm a passionate Web Developer from France <i className="twa twa-fr"></i>!</p>
-          <a className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer" href="/about">About me <i className="far fa-arrow-right"></i></a>
+          <div className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer">
+            <Link href="/about">
+              <a>About me <i className="far fa-arrow-right"></i></a>
+            </Link>
+          </div>
         </div>
 
 
