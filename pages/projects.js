@@ -26,13 +26,13 @@ export default function Projects({ repositories }) {
               </a>
               <div className="mb-3 mt-2 space-x-3 opacity-70">
                 <span>
-                  <i class="far fa-star"></i> { repository.stargazers_count }
+                  <i className="far fa-star"></i> { repository.stargazers_count }
                 </span>
                 <span>
-                  <i class="far fa-code-branch"></i> { repository.default_branch }
+                  <i className="far fa-code-branch"></i> { repository.default_branch }
                 </span>
                 <span>
-                  <i class="far fa-code"></i> { repository.language }
+                  <i className="far fa-code"></i> { repository.language }
                 </span>
               </div>
               <p>{ (repository.description ? repository.description : 'N/A') }</p>

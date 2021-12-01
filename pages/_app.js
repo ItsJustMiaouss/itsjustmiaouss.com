@@ -5,8 +5,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Script src="/js/fontawesome.min.js"></Script>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SR9BW3YL8S"></script>
-      <script async src="/js/analytics.js"></script>
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-SR9BW3YL8S"></Script>
+      <Script src="/js/analytics.js"></Script>
       <Component {...pageProps} />
     </>
   )
