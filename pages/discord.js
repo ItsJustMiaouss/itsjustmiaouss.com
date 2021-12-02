@@ -12,7 +12,7 @@ export default function Discord() {
 
           <div className="m-auto text-center p-2 md:p-0">
             <h1 className="text-3xl mb-3">Discord</h1>
-            <h1 className="text-4xl font-medium">ItsJustMiaouss#5136</h1>
+            <h1 className="text-3xl md:text-4xl font-medium">ItsJustMiaouss#5136</h1>
           </div>
 
           <Footer />
