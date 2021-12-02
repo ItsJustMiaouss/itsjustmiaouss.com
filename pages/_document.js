@@ -10,8 +10,10 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <meta charset="UTF-8" />
-        <meta name="description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I also love to code in all programming languages. Visit my website and send me a message!" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ellekasai/twemoji-awesome@gh-pages/twemoji-awesome.css" />
+        <meta name="description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
+        <meta property="og:site_name" content="ItsJustMiaouss" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <Head />
         <body className="h-screen text-white font-firacode">
