@@ -13,7 +13,7 @@ This is my website's repository made with [Next.js](https://nextjs.org/) and [Ta
 
 ## Development
 
-- Download and install [NodeJS](https://nodejs.org) (v16.13.1)
+- Download and install [NodeJS](https://nodejs.org) (v16).
 
 - Run the development server:
 
@@ -38,4 +38,4 @@ If you have any ideas for improvement or if you find a bug, please [open an issu
 
 ## License
 
-[MIT LICENSE](https://github.com/ItsJustMiaouss/itsjustmiaouss.com/blob/main/LICENSE.md)
+[MIT License](https://github.com/ItsJustMiaouss/itsjustmiaouss.com/blob/main/LICENSE.md)
