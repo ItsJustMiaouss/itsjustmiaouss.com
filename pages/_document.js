@@ -9,7 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
