@@ -28,7 +28,7 @@ export const Navbar = () => {
                 { menuItems.map(item =>
                   <div key={item.title} className="hover:opacity-60 cursor-pointer">
                     <Link href={item.url}>
-                      <a><i className={item.icon}></i> {item.title}</a>
+                      <a title={item.title}><i className={item.icon}></i> {item.title}</a>
                     </Link>
                   </div>
                 )}
@@ -51,7 +51,7 @@ export const Navbar = () => {
             { menuItems.map(item =>
               <div key={item.title} className="block py-1 hover:opacity-60 cursor-pointer">
                 <Link href={item.url}>
-                  <a><i className={item.icon}></i> {item.title}</a>
+                  <a title={item.title}><i className={item.icon}></i> {item.title}</a>
                 </Link>
               </div>
             )}
