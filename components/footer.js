@@ -13,7 +13,6 @@ export const Footer = () => {
           <Link href="/discord">
             <a rel="noreferrer" title="Discord"><i className="fab fa-discord"></i></a>
           </Link>
-          <a href="https://status.itsjustmiaouss.com" target="_blank" rel="noreferrer" title="Status page"><i className="far fa-signal"></i></a>
         </div>
       </div>
 

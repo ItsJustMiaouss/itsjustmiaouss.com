@@ -10,9 +10,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <meta charSet="UTF-8" />
-        <meta name="description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
+        <meta name="description" content="I'm ItsJustMiaouss, a passionate developer from France! Visit my website and send me a message!" />
         <meta property="og:type" content="website" />
-        <meta property="og:description" content="I'm ItsJustMiaouss, a passionate Web Developer from France! I love to code in all programming languages. Visit my website and send me a message!" />
+        <meta property="og:description" content="I'm ItsJustMiaouss, a passionate developer from France! Visit my website and send me a message!" />
         <meta property="og:site_name" content="ItsJustMiaouss" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <Head />
