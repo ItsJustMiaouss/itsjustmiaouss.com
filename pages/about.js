@@ -18,8 +18,9 @@ export default function About() {
               <div className="text-lg">
                 <p>I'm ItsJustMiaouss, a passionate developer from France <i className="twa twa-fr"></i>!</p>
                 <p>I usually share my open-source code on GitHub <i className="twa twa-sparkles"></i>!</p>
-                <p>I also enjoy developing many projects on the Steam Workshop.</p>
-                <p>The thing I like the most is the web development.</p>
+                <p>I like to develop mods and plugins for Minecraft as well</p>
+                <p>as scripts and addons for Garry's Mod on the Steam Workshop.</p>
+                <p>I also enjoy the web development.</p>
               </div>
             </div>
 
