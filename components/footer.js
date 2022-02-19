@@ -10,7 +10,7 @@ export const Footer = () => {
           <a href="https://github.com/ItsJustMiaouss" target="_blank" rel="noreferrer" title="GitHub"><i className="fab fa-github"></i></a>
           <a href="https://steamcommunity.com/id/ItsJustMiaouss" rel="noreferrer" target="_blank" title="Steam"><i className="fab fa-steam"></i></a>
           <a href="https://twitter.com/ItsJustMiaouss" target="_blank" rel="noreferrer" title="Twitter"><i className="fab fa-twitter"></i></a>
-          <a href="https://discord.itsjustmiaouss.com/" target="_blank" rel="noreferrer" title="Discord">><i className="fab fa-discord"></i></a>
+          <a href="https://discord.itsjustmiaouss.com/" target="_blank" rel="noreferrer" title="Discord"><i className="fab fa-discord"></i></a>
         </div>
       </div>
 
