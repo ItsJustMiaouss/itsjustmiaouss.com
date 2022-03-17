@@ -12,7 +12,8 @@ export default function Projects() {
       type: "Commercial",
       license: "Custom",
       language: "Lua",
-      favourite: true
+      favourite: true,
+      liked: true
     },
     {
       name: "NextCommand",
@@ -21,7 +22,8 @@ export default function Projects() {
       type: "Open-Source",
       license: "MIT",
       language: "Java",
-      favourite: true
+      favourite: true,
+      liked: false
     },
     {
       name: "2021 Tesla Cybertruck",
@@ -30,7 +32,8 @@ export default function Projects() {
       type: "Workshop Content",
       license: "N/A",
       language: "Lua",
-      favourite: true
+      favourite: true,
+      liked: true
     },
     {
       name: "Porsche 918 Spyder",
@@ -39,7 +42,8 @@ export default function Projects() {
       type: "Workshop Content",
       license: "N/A",
       language: "Lua",
-      favourite: false
+      favourite: false,
+      liked: false
     },
     {
       name: "DarkRP - Food and Household items",
@@ -48,7 +52,8 @@ export default function Projects() {
       type: "Workshop Content",
       license: "N/A",
       language: "Lua",
-      favourite: false
+      favourite: false,
+      liked: false
     },
     {
       name: "SecureNet",
@@ -57,7 +62,8 @@ export default function Projects() {
       type: "Open-Source",
       license: "MIT",
       language: "Javascript",
-      favourite: false
+      favourite: false,
+      liked: false
     },
     {
       name: "gPhysgun",
@@ -66,7 +72,8 @@ export default function Projects() {
       type: "Open-Source",
       license: "MIT",
       language: "Lua",
-      favourite: false
+      favourite: false,
+      liked: false
     }
   ]
 
@@ -80,12 +87,14 @@ export default function Projects() {
           <div className="text-center font-poppins p-2 md:p-0">
             <h1 className="text-4xl mb-8 mt-8">Projects</h1>
 
-            <div className="space-y-10 mb-5">
+            <div className="space-y-10 mb-8">
             { projects.map(project =>
               <div key={ project.id } className="rounded-md border-2 border-opacity-30 max-w-xl m-auto p-3">
 
-                {/* Star */}
-                { project.favourite == true && <i className="fas fa-star text-yellow-400 mr-1"></i> }
+                {/* Star & Like */}
+                { project.favourite && <i className="fas fa-star text-yellow-400 mr-1"></i> }
+                { project.liked && <i className="fas fa-thumbs-up text-blue-600 mr-1"></i> }
+                
 
                 {/* Title */}
                 <a className="text-2xl underline hover:opacity-70 cursor-pointer" href={ project.link } target="_blank" rel="noreferrer">
@@ -112,6 +121,15 @@ export default function Projects() {
             )}
             </div>
 
+          </div>
+
+          {/* Info */}
+          <div className="text-justify m-auto text-gray-500 mt-4">
+            <p><i className="far fa-star"></i> My favourites projects</p>
+            <p><i className="far fa-thumbs-up"></i> Community liked</p>
+            <p><i className="far fa-info-circle"></i> Project type</p>
+            <p><i className="far fa-file-certificate"></i> Project license</p>
+            <p><i className="far fa-code"></i> Project language</p>
           </div>
 
 
