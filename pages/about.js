@@ -13,19 +13,18 @@ export default function About() {
             <h1 className="text-4xl mb-8 mt-8">About</h1>
 
             <div>
-              <h2 className="text-3xl mb-4">Me <i className="twa twa-wave"></i></h2>
+              <h2 className="text-3xl mb-3">Me <i className="twa twa-wave"></i></h2>
 
               <div className="text-lg">
                 <p>I'm ItsJustMiaouss, a passionate developer from France <i className="twa twa-fr"></i>!</p>
-                <p>I usually share my open-source code on GitHub <i className="twa twa-sparkles"></i>!</p>
-                <p>I like to develop mods and plugins for Minecraft as well</p>
-                <p>as scripts and addons for Garry's Mod on the Steam Workshop.</p>
-                <p>I also enjoy the web development.</p>
+                <p>I like to share my open-source project to GitHub <i className="twa twa-sparkles"></i>!</p>
+                <p>I also love to develop mods and plugins for Minecraft and addons for Garry's Mod.</p>
+                <p>I also enjoy the web development :)</p>
               </div>
             </div>
 
             <div>
-              <h2 className="text-3xl mb-4 mt-6">Languages <i className="twa twa-computer"></i></h2>
+              <h2 className="text-3xl mb-3 mt-8">Languages <i className="twa twa-computer"></i></h2>
 
               <div className="text-lg">
                 <p>I use many programming and structuring languages like HTML, CSS, PHP, Javascript, Java, C#, Lua...</p>
@@ -34,7 +33,7 @@ export default function About() {
             </div>
 
             <div>
-              <h2 className="text-3xl mb-4 mt-6">Tools <i className="twa twa-gear"></i></h2>
+              <h2 className="text-3xl mb-3 mt-8">Tools <i className="twa twa-gear"></i></h2>
 
               <div className="text-lg">
                 <p>To program, I use Visual Studio Code and Git to manage my code.</p>
