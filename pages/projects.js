@@ -85,11 +85,11 @@ export default function Projects() {
           <Navbar />
 
           <div className="text-center font-poppins p-2 md:p-0">
-            <h1 className="text-4xl mb-8 mt-8">Projects</h1>
+            <h1 className="text-4xl mb-8 mt-8">Projects <span className="text-sm text-gray-400">({projects.length})</span></h1>
 
             <div className="space-y-10 mb-8">
             { projects.map(project =>
-              <div key={ project.id } className="rounded-md border-2 border-opacity-30 max-w-xl m-auto p-3">
+              <div key={project.name} className="rounded-md border-2 border-opacity-30 max-w-xl m-auto p-3">
 
                 {/* Star & Like */}
                 { project.favourite && <i className="fas fa-star text-yellow-400 mr-1"></i> }
