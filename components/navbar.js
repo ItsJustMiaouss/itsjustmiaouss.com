@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { useState } from 'react'
 
 
@@ -10,6 +11,12 @@ export const Navbar = () => {
     {title: 'About', icon: 'far fa-user', url: '/about'},
     {title: 'Contact', icon: 'far fa-paper-plane', url: '/contact'}
   ]
+
+  const router = useRouter()
+
+  function isSelected(url) {
+    return router.pathname == url
+  }
 
   const [ isMenuVisible, setMenuVisible ] = useState(false)
 
@@ -26,7 +33,7 @@ export const Navbar = () => {
               {/* Default */}
               <div className="hidden md:flex items-center space-x-8">
                 { menuItems.map(item =>
-                  <div key={item.title} className="hover:opacity-60 cursor-pointer">
+                  <div key={item.title} className={` ${isSelected(item.url) ? 'opacity-60' : false} hover:opacity-60 cursor-pointer`}>
                     <Link href={item.url}>
                       <a title={item.title}><i className={item.icon}></i> {item.title}</a>
                     </Link>
@@ -49,7 +56,7 @@ export const Navbar = () => {
           {/* Mobile menu */}
           <div className={` ${ isMenuVisible ? 'block' : 'hidden' } transition block md:hidden mb-5`}>
             { menuItems.map(item =>
-              <div key={item.title} className="block py-1 hover:opacity-60 cursor-pointer">
+              <div key={item.title} className={` ${isSelected(item.url) ? 'opacity-60' : false} block py-1 hover:opacity-60 cursor-pointer`}>
                 <Link href={item.url}>
                   <a title={item.title}><i className={item.icon}></i> {item.title}</a>
                 </Link>
