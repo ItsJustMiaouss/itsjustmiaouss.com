@@ -29,9 +29,9 @@ export default function Home() {
             <p className="text-gray-300 text-3xl  md:text-4xl mt-6">Hi, I'm <i className="twa twa-wave"></i></p>
             <h1 className="text-4xl md:text-6xl">ItsJustMiaouss</h1>
             <h2 className="text-gray-300 mt-3 text-base hidden md:block">I'm a passionate developer from France <i className="twa twa-fr"></i>!</h2>
-            <div className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer mr-auto">
+            <div className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer">
               <Link href="/about">
-                <a title="About me" className="text-gray-200">About me <i className="far fa-arrow-right"></i></a>
+                <a title="About me" className="text-gray-300 underline">About me <i className="far fa-arrow-right"></i></a>
               </Link>
             </div>
           </div>
