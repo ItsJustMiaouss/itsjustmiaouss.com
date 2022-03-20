@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Script async src="/js/fontawesome.min.js"></Script>
-      <Script defer src="https://www.googletagmanager.com/gtag/js?id=G-SR9BW3YL8S"></Script>
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
       <Script defer src="/js/analytics.js"></Script>
       <Component {...pageProps} />
     </>
