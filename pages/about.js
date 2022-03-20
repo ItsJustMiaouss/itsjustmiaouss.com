@@ -17,9 +17,9 @@ export default function About() {
 
               <div className="text-lg">
                 <p>I'm ItsJustMiaouss, a passionate developer from France <i className="twa twa-fr"></i>!</p>
-                <p>I like to share my open-source project to GitHub <i className="twa twa-sparkles"></i>!</p>
-                <p>I also love to develop mods and plugins for Minecraft and addons for Garry's Mod.</p>
-                <p>I also enjoy the web development :)</p>
+                <p>I like to share my open-source projects to GitHub <i className="twa twa-sparkles"></i>!</p>
+                <p>I also love to code some mods and plugins for Minecraft and addons for Garry's Mod.</p>
+                <p>I enjoy the web development by the way :)</p>
               </div>
             </div>
 
@@ -28,7 +28,7 @@ export default function About() {
 
               <div className="text-lg">
                 <p>I use many programming and structuring languages like HTML, CSS, PHP, Javascript, Java, C#, Lua...</p>
-                <p>I also use frameworks like Bootstrap, TailwindCSS, Laravel, Electron, VueJS, NextJS and NodeJS.</p>
+                <p>I also use frameworks like TailwindCSS, Laravel, Electron, VueJS, NextJS and NodeJS.</p>
               </div>
             </div>
 
