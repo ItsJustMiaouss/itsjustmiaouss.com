@@ -3,17 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { Layout } from '../components/layout'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
 
 export default function Home() {
   return (
     <>
 
-      <Layout title="ItsJustMiaouss">
+      <Layout title="ItsJustMiaouss" top={false}>
 
-        <div className="flex flex-col h-screen">
-          <Navbar />
+        <div className="flex flex-col">
 
           <div className="m-auto text-center p-3 md:p-0">
 
@@ -36,12 +33,9 @@ export default function Home() {
             </div>
           </div>
 
-          <Footer />
         </div>
 
       </Layout>
-
-
 
     </>
   )

@@ -1,6 +1,4 @@
 import { Layout } from '../components/layout'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
 
 export default function Projects() {
 
@@ -14,6 +12,16 @@ export default function Projects() {
       language: "Lua",
       favourite: true,
       liked: true
+    },
+    {
+      name: "itsjustmiaouss.com",
+      link: "https://github.com/ItsJustMiaouss/itsjustmiaouss.com",
+      desc: "Repository for my website 😊",
+      type: "Open-Source",
+      license: "MIT",
+      language: "Javascript",
+      favourite: true,
+      liked: false
     },
     {
       name: "NextCommand",
@@ -79,10 +87,9 @@ export default function Projects() {
 
   return (
     <>
-      <Layout title="Projects - ItsJustMiaouss">
+      <Layout title="Projects - ItsJustMiaouss" top={false}>
 
-        <div className="flex flex-col h-screen">
-          <Navbar />
+        <div className="flex flex-col">
 
           <div className="text-center font-poppins p-2 md:p-0">
             <h1 className="text-4xl mb-8 mt-8">Projects <span className="text-sm text-gray-400">({projects.length})</span></h1>
@@ -95,7 +102,6 @@ export default function Projects() {
                 { project.favourite && <i className="fas fa-star text-yellow-400 mr-1"></i> }
                 { project.liked && <i className="fas fa-thumbs-up text-blue-600 mr-1"></i> }
                 
-
                 {/* Title */}
                 <a className="text-2xl underline hover:opacity-70 cursor-pointer" href={ project.link } target="_blank" rel="noreferrer">
                   { project.name }
@@ -123,22 +129,6 @@ export default function Projects() {
 
           </div>
 
-          {/* Info */}
-          <div className="text-justify m-auto text-gray-500 mt-4">
-            <p><i className="far fa-star"></i> My favourites projects</p>
-            <p><i className="far fa-thumbs-up"></i> Community liked</p>
-            <p><i className="far fa-info-circle"></i> Project type</p>
-            <p><i className="far fa-file-certificate"></i> Project license</p>
-            <p><i className="far fa-code"></i> Project language</p>
-          </div>
-
-
-          {/* Footer stay to bottom */}
-          <div className="m-auto text-center p-3 md:p-0">
-          </div>
-
-
-          <Footer />
         </div>
 
       </Layout>
