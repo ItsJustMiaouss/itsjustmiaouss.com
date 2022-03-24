@@ -14,6 +14,16 @@ export default function Projects() {
       liked: true
     },
     {
+      name: "itsjustmiaouss.com",
+      link: "https://github.com/ItsJustMiaouss/itsjustmiaouss.com",
+      desc: "Repository for my website 😊",
+      type: "Open-Source",
+      license: "MIT",
+      language: "Javascript",
+      favourite: true,
+      liked: false
+    },
+    {
       name: "NextCommand",
       link: "https://github.com/ItsJustMiaouss/NextCommand",
       desc: "NextCommand adds many essential commands to your Minecraft server. The config file is easily editable!",
@@ -92,7 +102,6 @@ export default function Projects() {
                 { project.favourite && <i className="fas fa-star text-yellow-400 mr-1"></i> }
                 { project.liked && <i className="fas fa-thumbs-up text-blue-600 mr-1"></i> }
                 
-
                 {/* Title */}
                 <a className="text-2xl underline hover:opacity-70 cursor-pointer" href={ project.link } target="_blank" rel="noreferrer">
                   { project.name }
