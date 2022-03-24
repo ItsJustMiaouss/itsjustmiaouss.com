@@ -1,15 +1,12 @@
 import { Layout } from '../components/layout'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
 
 export default function Contact() {
 
   return (
     <>
-      <Layout title="Contact - ItsJustMiaouss">
+      <Layout title="Contact - ItsJustMiaouss" top={false}>
 
-        <div className="flex flex-col h-screen">
-          <Navbar />
+        <div className="flex flex-col">
 
           <div className="m-auto text-center p-3 md:p-0">
             
@@ -21,7 +18,6 @@ export default function Contact() {
 
           </div>
 
-          <Footer />
         </div>
 
       </Layout>
