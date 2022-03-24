@@ -129,15 +129,6 @@ export default function Projects() {
 
           </div>
 
-          {/* Info */}
-          {/* <div className="text-justify m-auto text-gray-500 mt-4">
-            <p><i className="far fa-star"></i> My favourites projects</p>
-            <p><i className="far fa-thumbs-up"></i> Community liked</p>
-            <p><i className="far fa-info-circle"></i> Project type</p>
-            <p><i className="far fa-file-certificate"></i> Project license</p>
-            <p><i className="far fa-code"></i> Project language</p>
-          </div> */}
-
         </div>
 
       </Layout>
