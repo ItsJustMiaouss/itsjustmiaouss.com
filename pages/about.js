@@ -1,13 +1,10 @@
 import { Layout } from '../components/layout'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
 
 export default function About() {
   return (
     <>
-      <Layout title="About - ItsJustMiaouss">
-        <div className="flex flex-col h-screen">
-          <Navbar />
+      <Layout title="About - ItsJustMiaouss" top={true}>
+        <div className="flex flex-col">
 
           <div className="text-center font-poppins p-2 md:p-0">
             <h1 className="text-4xl mb-8 mt-8">About</h1>
@@ -41,12 +38,7 @@ export default function About() {
             </div>
 
           </div>
-
-          {/* Footer stay to bottom */}
-          <div className="m-auto">
-          </div>
-
-          <Footer />
+          
         </div>
 
       </Layout>
