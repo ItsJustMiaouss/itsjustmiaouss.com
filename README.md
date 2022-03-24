@@ -1,6 +1,6 @@
-<div style="text-align: center; font-size: 2rem; margin: auto;">
+<div align="center">
 
-  <a href="https://itsjustmiaouss.com" target="_blank">ItsJustMiaouss.com</a>
+  <a href="https://itsjustmiaouss.com" target="_blank">itsjustmiaouss.com</a>
 
   ![Vercel](https://vercelbadge.vercel.app/api/ItsJustMiaouss/itsjustmiaouss.com)
 
@@ -9,7 +9,7 @@
 
 ## Description
 
-This is my website's repository made with [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) and deployed to [Vercel](https://vercel.com).
+This is my website repository made with [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/) and deployed to [Vercel](https://vercel.com).
 
 ## Development
 
