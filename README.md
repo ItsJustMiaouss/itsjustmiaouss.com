@@ -1,11 +1,10 @@
 <div align="center">
 
-  <a href="https://itsjustmiaouss.com" target="_blank">itsjustmiaouss.com</a>
+<a href="https://itsjustmiaouss.com" target="_blank">itsjustmiaouss.com</a>
 
-  ![Vercel](https://vercelbadge.vercel.app/api/ItsJustMiaouss/itsjustmiaouss.com)
+![Vercel](https://vercelbadge.vercel.app/api/ItsJustMiaouss/itsjustmiaouss.com)
 
 </div>
-
 
 ## Description
 
@@ -18,12 +17,23 @@ This is my website repository made with [Next.js](https://nextjs.org/) and [Tail
 - Run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ npm install
+
+$ npm run dev
 ```
 
 - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Production
+
+- Before any push, you must check the code
+
+```bash
+$ npm run lint
+
+# if you want to auto-fix lint errors
+$ npm run fix
+```
 
 ## Learn More about NextJS
 
