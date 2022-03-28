@@ -14,7 +14,7 @@ export const Layout = ({children, title, top}) => {
 
         <Navbar />
 
-        <div className={top ? "mb-auto" : false}>
+        <div className={top ? 'mb-auto' : false}>
           { children }
         </div>
 
