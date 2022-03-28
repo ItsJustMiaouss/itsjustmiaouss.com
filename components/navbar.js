@@ -45,8 +45,8 @@ export const Navbar = () => {
 
             {/* Mobile button */}
             <button 
-            onClick={() => setMenuVisible(!isMenuVisible)}
-            className="flex md:hidden items-center cursor-pointer">
+              onClick={() => setMenuVisible(!isMenuVisible)}
+              className="flex md:hidden items-center cursor-pointer">
               <i className="far fa-bars"></i>
             </button>
 
