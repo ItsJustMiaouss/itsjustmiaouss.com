@@ -27,6 +27,5 @@ projects {
 
 export async function getProjects() {
   const { projects } = await graphcms.request(projectsQuery)
-  console.log(projects)
   return projects
 }
