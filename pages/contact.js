@@ -4,9 +4,9 @@ export default function Contact() {
 
   return (
     <>
-      <Layout title="Contact - ItsJustMiaouss" top={false}>
+      <Layout title="Contact - ItsJustMiaouss">
 
-        <div className="flex flex-col">
+        <div className="flex flex-col h-full">
 
           <div className="m-auto text-center p-3 md:p-0">
             
