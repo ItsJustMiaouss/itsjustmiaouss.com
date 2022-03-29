@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { Navbar } from '../components/navbar'
 import { Footer } from '../components/footer'
 
-export const Layout = ({children, title, top}) => {
+export const Layout = ({children, title}) => {
   return (
     <div>
       <Head>
@@ -14,7 +14,7 @@ export const Layout = ({children, title, top}) => {
 
         <Navbar />
 
-        <div className={top ? 'mb-auto' : undefined}>
+        <div className="h-screen">
           { children }
         </div>
 
