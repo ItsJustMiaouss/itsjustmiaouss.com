@@ -5,6 +5,7 @@ export default function Projects({ projects }) {
 
   return (
     <>
+    
       <Layout title="Projects - ItsJustMiaouss">
 
         <div className="flex flex-col">

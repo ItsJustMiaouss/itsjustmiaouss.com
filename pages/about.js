@@ -3,7 +3,8 @@ import { Layout } from '../components/layout'
 export default function About() {
   return (
     <>
-      <Layout title="About - ItsJustMiaouss">
+
+      <Layout title="About - ItsJustMiaouss">ain
         <div className="flex flex-col">
 
           <div className="text-center font-poppins p-2 md:p-0">
