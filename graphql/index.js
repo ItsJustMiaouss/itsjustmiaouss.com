@@ -16,7 +16,6 @@ projects {
 	id
 	language
 	license
-	liked
 	link
 	name
 	type
