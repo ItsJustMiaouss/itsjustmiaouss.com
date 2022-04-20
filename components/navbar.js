@@ -28,7 +28,11 @@ export const Navbar = () => {
           <div className="flex justify-between items-center">
 
             <div className="flex items-center py-3 space-x-10">
-              <span className="text-2xl">ItsJustMiaouss</span>
+              <span className="text-2xl hover:opacity-60 duration-200">
+                <Link href="/">
+                  <a href="/">ItsJustMiaouss</a>
+                </Link>
+              </span>
               
               {/* Default */}
               <div className="hidden md:flex items-center space-x-8">

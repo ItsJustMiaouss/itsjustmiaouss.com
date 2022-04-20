@@ -1,5 +1,5 @@
 import { Layout } from '../components/layout'
-import { getProjects } from '../graphql'
+import { getProjects } from '../data/projects'
 
 export default function Projects({ projects }) {
 
@@ -55,11 +55,10 @@ export default function Projects({ projects }) {
   )
 }
 
-export async function getStaticProps() {
-  const projects = await getProjects()
+export function getStaticProps() {
+  const projects = getProjects()
 
   return {
-    props: { projects },
-    revalidate: 120
+    props: { projects }
   }
 }
