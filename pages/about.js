@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
 
-      <Layout title="About - ItsJustMiaouss">ain
+      <Layout title="About - ItsJustMiaouss">
         <div className="flex flex-col">
 
           <div className="text-center font-poppins p-2 md:p-0">
