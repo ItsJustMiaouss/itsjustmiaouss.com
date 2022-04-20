@@ -7,14 +7,14 @@ export const Layout = ({children, title}) => {
     <div>
       <Head>
         <title>{ title }</title>
-        <meta property="og:title" ttile={ title } />
+        <meta property="og:title" title={ title } />
       </Head>
 
       <div className="flex flex-col h-screen justify-between">
 
         <Navbar />
 
-        <div className="h-screen">
+        <div className="flex-grow">
           { children }
         </div>
 
