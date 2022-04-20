@@ -5,7 +5,8 @@ export default function Projects({ projects }) {
 
   return (
     <>
-      <Layout title="Projects - ItsJustMiaouss" top={false}>
+    
+      <Layout title="Projects - ItsJustMiaouss">
 
         <div className="flex flex-col">
 
@@ -17,9 +18,8 @@ export default function Projects({ projects }) {
               { projects.map(project =>
                 <div key={project.name} className="rounded-md border-2 border-opacity-30 max-w-xl m-auto p-3">
 
-                  {/* Star & Like */}
+                  {/* Favourite */}
                   { project.favourite && <i className="fas fa-star text-yellow-400 mr-1"></i> }
-                  { project.liked && <i className="fas fa-thumbs-up text-blue-600 mr-1"></i> }
                 
                   {/* Title */}
                   <a className="text-2xl underline hover:opacity-70 cursor-pointer" href={ project.link } target="_blank" rel="noreferrer">
