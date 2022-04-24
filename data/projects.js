@@ -10,7 +10,7 @@ const projects = [
 	},
 	{
 		name: "itsjustmiaouss.com",
-		link: "https://github.com/ItsJustMiaouss/itsjustmiaouss.com8",
+		link: "https://github.com/ItsJustMiaouss/itsjustmiaouss.com",
 		desc: "Repository for my website 😊",
 		type: "Open-Source",
 		license: "MIT",
