@@ -20,7 +20,7 @@ export default function Home() {
               Hi, I'm <i className="twa twa-wave"></i>
             </p>
             <h1 className="text-4xl md:text-6xl">ItsJustMiaouss</h1>
-            <h2 className="text-gray-300 mt-3 text-base hidden md:block">
+            <h2 className="text-gray-300 mt-2 mb-3 text-base hidden md:block">
               I'm a passionate developer from France{' '}
               <i className="twa twa-fr"></i>!
             </h2>
