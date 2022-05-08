@@ -24,7 +24,7 @@ export default function Home() {
               I'm a passionate developer from France{' '}
               <i className="twa twa-fr"></i>!
             </h2>
-            <div className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer">
+            <div className="text-gray-300 hover:opacity-60 text-2xl md:text-base cursor-pointer w-fit m-auto">
               <Link href="/about">
                 <a title="About me" className="text-gray-300 underline">
                   About me <i className="far fa-arrow-right"></i>
