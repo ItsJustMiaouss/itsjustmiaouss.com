@@ -16,7 +16,7 @@ export default function Projects({ projects }) {
               {projects.map(project => (
                 <div
                   key={project.name}
-                  className="rounded-md border-2 border-opacity-30 max-w-xl m-auto p-3">
+                  className="rounded-md border-2 border-gray-500 max-w-xl m-auto p-3">
                   {/* Favourite */}
                   {project.favourite && (
                     <i className="fas fa-star text-yellow-400 mr-1"></i>
