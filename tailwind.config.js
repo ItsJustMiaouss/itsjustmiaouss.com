@@ -1,15 +1,12 @@
 module.exports = {
-  purge: [
-    './pages/*.js',
-    './components/*.js'
-  ],
-  darkMode: false, // or 'media' or 'class'
+  purge: ['./pages/*.js', './components/*.js'],
+  darkMode: false, // Or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
         firacode: ['Fira Code'],
-        poppins: ['Poppins']
-      }
+        poppins: ['Poppins'],
+      },
     },
   },
   variants: {
