@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script async src="/js/fontawesome.min.js"></Script>
       <Script async src="https://cdn.splitbee.io/sb.js"></Script>
-      <Script defer src="/js/analytics.js"></Script>
       <Component {...pageProps} />
     </>
   )
