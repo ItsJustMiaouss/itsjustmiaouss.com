@@ -21,7 +21,7 @@ export default function Home() {
               I'm a passionate developer from France <i className="twa twa-fr"></i>!
             </h2>
 
-            <div className="space-x-6">
+            <div className="block space-y-2 md:space-x-6">
               <Link href="/projects">
                 <button className="cursor-pointer border-2 border-blue-700 bg-blue-700 px-8 py-2 rounded-xl hover:opacity-60 duration-300">
                   <i className="far fa-box"></i> Projects
