@@ -11,7 +11,7 @@ const projects = [
   {
     name: 'itsjustmiaouss.com',
     link: 'https://github.com/ItsJustMiaouss/itsjustmiaouss.com',
-    desc: 'Repository for my personal website 😉',
+    desc: 'Repository of my personal website 😉',
     type: 'Open-Source',
     license: 'MIT',
     language: 'Javascript',
