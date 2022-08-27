@@ -10,7 +10,7 @@ export default function Contact() {
               <h1 className="text-4xl font-extralight mb-5">
                 <i className="far fa-paper-plane"></i>
               </h1>
-              <h1 className="text-4xl font-poppins">Send me a message</h1>
+              <h1 className="text-4xl">Send me a message</h1>
               <a
                 href="https://discord.itsjustmiaouss.com/"
                 target="_blank"

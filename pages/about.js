@@ -5,7 +5,7 @@ export default function About() {
     <>
       <Layout title="About - ItsJustMiaouss">
         <div className="flex flex-col">
-          <div className="text-center font-poppins p-2 md:p-0">
+          <div className="text-center p-2 md:p-0">
             <h1 className="text-4xl mb-8 mt-8">About</h1>
 
             <div>

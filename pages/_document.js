@@ -22,7 +22,7 @@ class MyDocument extends Document {
         <meta property="og:site_name" content="ItsJustMiaouss" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <Head />
-        <body className="h-screen text-white font-firacode">
+        <body className="h-screen text-white">
           <Main />
           <NextScript />
         </body>

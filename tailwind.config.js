@@ -3,7 +3,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        firacode: ['Fira Code'],
         poppins: ['Poppins'],
       },
     },
