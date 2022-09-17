@@ -1,22 +1,23 @@
-import Head from 'next/head'
-import { Navbar } from '../components/navbar'
-import { Footer } from '../components/footer'
+import Head from "next/head"
+import Script from "next/script"
+import Footer from "./footer"
+import Navbar from "./navbar"
 
-export const Layout = ({ children, title }) => {
-  return (
-    <div>
+export default function Layout({ children, title }) {
+	return (
+		<div>
       <Head>
-        <title>{title}</title>
-        <meta property="og:title" title={title} />
+        <title>{ title }</title>
       </Head>
-
-      <div className="flex flex-col h-screen justify-between">
+			<div className="flex flex-col h-screen justify-between">
         <Navbar />
 
-        <div className="flex-grow">{children}</div>
+        <main className="flex-grow">{ children }</main>
 
         <Footer />
       </div>
-    </div>
-  )
+      <Script async src="/js/fontawesome.js"></Script>
+      <Script async src="https://cdn.splitbee.io/sb.js"></Script>
+		</div>
+	)
 }

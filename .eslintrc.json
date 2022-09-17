@@ -1,12 +1,3 @@
 {
-  "extends": ["next", "prettier"],
-  "rules": {
-    "prefer-const": "error",
-    "capitalized-comments": "warn",
-    "no-empty": "error",
-    "no-lonely-if": "error",
-    "spaced-comment": "warn",
-    "yoda": "warn",
-    "react/no-unescaped-entities": "off"
-  }
+  "extends": "next/core-web-vitals"
 }

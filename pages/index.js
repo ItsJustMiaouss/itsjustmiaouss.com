@@ -1,43 +1,28 @@
 import Image from 'next/image'
 import Link from 'next/link'
-
-import { Layout } from '../components/layout'
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <>
-      <Layout title="ItsJustMiaouss">
-        <div className="flex flex-col h-full">
-          <div className="m-auto text-center p-3 md:p-0">
-            <Image
-              className="rounded-xl hover:opacity-60 transition-opacity duration-300"
-              src="/img/profile.png"
-              alt="Profile"
-              width={250}
-              height={250}></Image>
+   <div>
+    <Layout title="ItsJustMiaouss">
+      <div className="flex flex-col justify-center items-center align-middle m-auto h-full text-center">
 
-            <h1 className="text-4xl md:text-6xl">ItsJustMiaouss</h1>
-            <h2 className="text-gray-300 mt-2 mb-3 text-base md:text-xl">
-              I'm a passionate developer from France <i className="twa twa-fr"></i>!
-            </h2>
-
-            <div className="block space-y-2 md:space-x-6">
-              <Link href="/projects">
-                <button className="cursor-pointer border-2 border-blue-700 bg-blue-700 px-8 py-2 rounded-xl hover:opacity-60 duration-300">
-                  <i className="far fa-box"></i> Projects
-                </button>
-              </Link>
-              
-              <Link href="/about">
-                <button className="cursor-pointer border-2 px-8 py-2 rounded-xl hover:opacity-60 duration-300">
-                  <i className="far fa-user"></i> About me
-                </button>
-              </Link>
-            </div>
-
-          </div>
+        <Image className="rounded-lg hover:opacity-60 duration-300" src="/img/profile.png" width={250} height={250}></Image>
+        <h1 className="text-4xl md:text-5xl mt-2">ItsJustMiaouss</h1>
+        <p className="text-gray-300 text-md md:text-xl">I'm a passionate developer from France <i className="twa twa-france-flag"></i>!</p>
+      
+        <div className="flex flex-col space-y-2 md:block md:space-x-2">
+          <Link href="/projects">
+            <span className="inline-block cursor-pointer border-2 border-blue-700 bg-blue-700 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i class="fa-regular fa-box"></i> Projects</span>
+          </Link>
+          <Link href="/about">
+            <span className="inline-block cursor-pointer border-2 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i class="fa-regular fa-user"></i> About</span>
+          </Link>
         </div>
-      </Layout>
-    </>
+      
+      </div>
+    </Layout>
+   </div>
   )
 }

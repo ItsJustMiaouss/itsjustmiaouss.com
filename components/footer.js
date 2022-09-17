@@ -1,45 +1,19 @@
-export const Footer = () => {
-  return (
-    <>
-      <div className="flex justify-center md:justify-between p-3">
-        <p className="hidden md:block opacity-60">
-          Made with <i className="twa twa-heart"></i> by ItsJustMiaouss
-        </p>
-        <div className="flex space-x-3 text-lg">
-          <a
-            href="https://github.com/ItsJustMiaouss"
-            target="_blank"
-            rel="noreferrer"
-            className="opacity-60 hover:opacity-100 transition"
-            title="GitHub">
-            <i className="fab fa-github"></i>
-          </a>
-          <a
-            href="https://steamcommunity.com/id/ItsJustMiaouss"
-            rel="noreferrer"
-            target="_blank"
-            className="opacity-60 hover:opacity-100 transition"
-            title="Steam">
-            <i className="fab fa-steam"></i>
-          </a>
-          <a
-            href="https://twitter.com/ItsJustMiaouss"
-            target="_blank"
-            rel="noreferrer"
-            className="opacity-60 hover:opacity-100 transition"
-            title="Twitter">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a
-            href="https://discord.itsjustmiaouss.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="opacity-60 hover:opacity-100 transition"
-            title="Discord">
-            <i className="fab fa-discord"></i>
-          </a>
+import Link from "next/link";
+
+export default function Footer() {
+	return (
+		<div>
+      <footer className="flex justify-center md:justify-between text-center px-6 pb-2">
+        <div className="md:flex text-left hidden">
+          <span className="ml-2 opacity-60">Made with <i className="twa twa-heart"></i> by ItsJustMiaouss</span>
         </div>
-      </div>
-    </>
-  )
+        <div className="flex space-x-2 hover:opacity-100">
+          <Link href="https://github.com/ItsJustMiaouss"><span className="opacity-60 hover:opacity-100 transition"><i className="fa-brands fa-github"></i></span></Link>
+          <Link href="https://steamcommunity.com/id/ItsJustMiaouss"><span className="opacity-60 hover:opacity-100 transition"><i className="fa-brands fa-steam"></i></span></Link>
+          <Link href="https://twitter.com/ItsJustMiaouss"><span className="opacity-60 hover:opacity-100 transition"><i className="fa-brands fa-twitter"></i></span></Link>
+          <Link href="https://discord.itsjustmiaouss.com/"><span className="opacity-60 hover:opacity-100 transition"><i className="fa-brands fa-discord"></i></span></Link>
+        </div>
+      </footer>
+    </div>
+	)
 }
