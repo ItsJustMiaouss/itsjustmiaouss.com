@@ -80,7 +80,7 @@ export default function Projects() {
                 { project.favourite && (
                   <i className="fa-solid fa-star text-yellow-400 mr-1"></i>
                 )}
-                <a href={ project.link } target="_blank" className="text-2xl inline-block underline hover:opacity-60">{ project.name }</a>
+                <a href={ project.link } target="_blank" rel="noreferrer" className="text-2xl inline-block underline hover:opacity-60">{ project.name }</a>
                 <section className="mb-3 mt-2 space-x-3 opacity-70">
                   <i className="fa-regular fa-info-circle"></i> { project.type }
                   <i className="far fa-file-certificate"></i> { project.license }
