@@ -6,7 +6,8 @@ export default function Document() {
 			<meta charSet="UTF-8" />
 			<meta name="description" content="I'm ItsJustMiaouss, a passionate developer from France!" />
 			<meta property="og:type" content="website" />
-      <link href="/css/twemoji.css" rel="stylesheet"></link>
+			<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+      		<link href="/css/twemoji.css" rel="stylesheet"></link>
 			<Head />
 			<body className="bg-dark-gray font-poppins text-gray-100">
 				<Main />
