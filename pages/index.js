@@ -14,10 +14,10 @@ export default function Home() {
       
         <div className="flex flex-col space-y-2 md:block md:space-x-2">
           <Link href="/projects">
-            <span className="inline-block cursor-pointer border-2 border-blue-700 bg-blue-700 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i class="fa-regular fa-box"></i> Projects</span>
+            <span className="inline-block cursor-pointer border-2 border-blue-700 bg-blue-700 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i className="fa-regular fa-box"></i> Projects</span>
           </Link>
           <Link href="/about">
-            <span className="inline-block cursor-pointer border-2 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i class="fa-regular fa-user"></i> About</span>
+            <span className="inline-block cursor-pointer border-2 px-8 py-2 rounded-xl hover:opacity-60 duration-300"><i className="fa-regular fa-user"></i> About</span>
           </Link>
         </div>
       
