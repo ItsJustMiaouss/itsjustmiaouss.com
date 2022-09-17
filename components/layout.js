@@ -12,7 +12,7 @@ export default function Layout({ children, title }) {
 			<div className="flex flex-col h-screen justify-between">
         <Navbar />
 
-        <main className="flex-grow">{ children }</main>
+        <main className="flex-grow mt-4 mb-4">{ children }</main>
 
         <Footer />
       </div>
