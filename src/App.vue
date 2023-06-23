@@ -27,15 +27,19 @@ import SocialIcon from "./components/SocialIcon.vue"
         <!-- Social links -->
         <div class="flex space-x-6 mt-2">
           <SocialIcon
+						title="Discord"
             icon="fa-brands fa-discord"
             link="https://discordapp.com/users/254342535172849674" />
           <SocialIcon
+						title="GitHub"
             icon="fa-brands fa-github"
             link="https://github.com/ItsJustMiaouss" />
           <SocialIcon
+						title="Twitter"
             icon="fa-brands fa-twitter"
             link="https://twitter.com/ItsJustMiaouss" />
           <SocialIcon
+						title="Steam"
             icon="fa-brands fa-steam"
             link="https://steamcommunity.com/id/ItsJustMiaouss" />
         </div>
