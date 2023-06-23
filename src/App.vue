@@ -15,7 +15,7 @@ import SocialIcon from "./components/SocialIcon.vue"
       <div
         class="flex flex-col justify-center items-center align-middle m-auto h-full text-center font-sora">
         <!-- Profile picture -->
-        <img class="rounded-lg w-52" src="./assets/profile.png" alt="Profile" />
+        <img class="rounded-lg" width="200" height="200" src="./assets/profile.png" alt="Profile" />
         <!-- Title -->
         <h1 class="text-4xl md:text-5xl mt-4">ItsJustMiaouss</h1>
         <!-- Description -->
