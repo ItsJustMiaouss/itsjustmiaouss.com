@@ -4,7 +4,7 @@ import SocialIcon from "./components/SocialIcon.vue"
 
 <template>
   <div
-    class="bg-[#191B1D] font-poppins h-screen text-white flex flex-col gap-3 px-4 py-3">
+    class="bg-background font-poppins h-screen text-white flex flex-col gap-3 px-4 py-3">
     <!-- Header -->
     <header>
       <span class="text-2xl">ItsJustMiaouss</span>
