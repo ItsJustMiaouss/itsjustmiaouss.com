@@ -4,14 +4,14 @@ This is the repository of my website made with [Vite](https://vitejs.dev/), [Vue
 
 ## 💻 Development
 
-- Download and install [NodeJS](https://nodejs.org) (v18).
+- Download and install [NodeJS](https://nodejs.org) (v20).
 
 - Run the development server:
 
 ```bash
-$ npm install
+$ pnpm install
 
-$ npm run dev
+$ pnpm run dev
 ```
 
 ## ✨ Recommended IDE Setup
