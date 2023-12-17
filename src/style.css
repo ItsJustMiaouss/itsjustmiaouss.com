@@ -8,7 +8,7 @@
 
 @layer utilities {
   .paw-icon {
-    background-image: url("/src/assets/paw-solid.svg");
+    background-image: url("/paw-solid.svg");
     background-size: 100%;
     width: 3rem;
     height: 3rem;
