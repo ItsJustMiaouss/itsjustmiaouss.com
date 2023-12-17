@@ -5,3 +5,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .paw-icon {
+    background-image: url("paw-solid.svg");
+    background-size: 100%;
+    width: 3rem;
+    height: 3rem;
+  }
+}

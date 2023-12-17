@@ -15,12 +15,17 @@ import SocialIcon from "./components/SocialIcon.vue"
       <div
         class="flex flex-col justify-center items-center align-middle m-auto h-full text-center font-sora">
         <!-- Profile picture -->
-        <img
-          class="rounded-lg"
-          width="200"
-          height="200"
-          src="./assets/profile.png"
-          alt="Profile" />
+        <div>
+          <img
+            class="rounded-lg m-auto"
+            width="200"
+            height="200"
+            src="./assets/profile.png"
+            alt="Profile" />
+
+          <!-- Paw icon -->
+          <i class="paw-icon mr-[60vw] rotate-[30deg] -mt-10 hidden sm:block" />
+        </div>
         <!-- Title -->
         <h1 class="text-4xl md:text-5xl mt-4">ItsJustMiaouss</h1>
         <!-- Description -->
@@ -48,6 +53,9 @@ import SocialIcon from "./components/SocialIcon.vue"
             icon="fa-brands fa-steam"
             link="https://steamcommunity.com/id/ItsJustMiaouss" />
         </div>
+
+        <!-- Paw icon -->
+        <i class="paw-icon ml-[60vw] rotate-[-25deg] hidden sm:block" />
       </div>
     </body>
 
