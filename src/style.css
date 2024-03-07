@@ -14,3 +14,65 @@
     height: 3rem;
   }
 }
+
+/* Animations */
+@keyframes danse {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  25% {
+    transform: translateY(-20px) translateX(-20px);
+  }
+  50% {
+    transform: translateY(0) translateX(0);
+  }
+  75% {
+    transform: translateY(-20px) translateX(20px);
+  }
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move-right {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes move-left {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+.animate-danse {
+  animation: danse 1.5s infinite;
+}
+
+.animate-roll {
+  animation: roll 1.5s infinite;
+}
+
+.animate-move-right {
+  animation: move-right 1s ease-in-out infinite;
+}
+
+.animate-move-left {
+  animation: move-left 1s ease-in-out infinite;
+}

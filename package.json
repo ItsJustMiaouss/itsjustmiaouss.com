@@ -10,6 +10,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
+    "js-confetti": "^0.12.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
