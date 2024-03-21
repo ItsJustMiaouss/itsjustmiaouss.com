@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
-@import url("https://cdn.jsdelivr.net/gh/iamludal/twemoji-awesome@master/twemoji-awesome.css");
 
 @tailwind base;
 @tailwind components;
@@ -12,6 +11,26 @@
     background-size: 100%;
     width: 3rem;
     height: 3rem;
+  }
+
+  /* From https://ellekasai.github.io/twemoji-awesome/ */
+  .twa {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0 0.1em;
+    vertical-align: -0.1em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1em 1em;
+  }
+
+  .twa-flag-france {
+    background-image: url(https://twitter.github.io/twemoji/v/latest/svg/1f1eb-1f1f7.svg);
+  }
+
+  .twa-heart-suit {
+    background-image: url("https://twemoji.maxcdn.com/2/svg/2665.svg");
   }
 }
 
