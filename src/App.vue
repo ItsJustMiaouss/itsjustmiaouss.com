@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref } from "vue"
 import SocialIcon from "./components/SocialIcon.vue"
 import JSConfetti from "js-confetti"
