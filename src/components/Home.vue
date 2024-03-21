@@ -79,13 +79,13 @@ function startAnimation() {
           ItsJustMiaouss
         </h1>
         <!-- Description -->
-        <p
-          class="text-gray-300 text-sm md:text-md md:text-xl font-extralight"
+        <section
+          class="text-gray-300 text-sm md:text-md md:text-xl font-extralight flex items-center gap-1"
           :class="{ 'animate-move-left': animate }">
-          I'm a passionate developer from France
-          <i class="twa twa-flag-france"></i>
-          !
-        </p>
+          <span>I'm a passionate developer from France</span>
+          <i class="twa twa-flag-france" />
+          <span>!</span>
+        </section>
         <!-- Social links -->
         <div
           class="flex space-x-6 mt-2"
@@ -116,12 +116,11 @@ function startAnimation() {
     </body>
 
     <!-- Footer -->
-    <footer class="flex align-middle justify-center md:justify-start">
-      <span class="opacity-60 font-light">
-        Made with
-        <i class="twa twa-heart-suit"></i>
-        by ItsJustMiaouss
-      </span>
+    <footer
+      class="flex align-middle justify-center md:justify-start items-center opacity-60 font-light gap-1">
+      <span>Made with</span>
+      <i class="twa twa-heart-suit" />
+      <span>by ItsJustMiaouss</span>
     </footer>
   </main>
 </template>
