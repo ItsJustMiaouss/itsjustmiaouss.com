@@ -3,54 +3,44 @@ import { ref } from "vue"
 import SocialIcon from "./components/SocialIcon.vue"
 import JSConfetti from "js-confetti"
 
-const clickCount = ref(0)
-
 const animate = ref(false)
-const animationStarted = ref(false)
+const animationTriggered = ref(false)
 
 const jsConfetti = new JSConfetti()
 
-console.log("Hint: Cats have 9 lives.")
-
-function incrementClickCount() {
-  clickCount.value += 1
-
-  if (clickCount.value >= 9) {
-    startAnimation()
-    clickCount.value = 0
-  }
-}
-
 function startAnimation() {
-  if (animationStarted.value) return
+  if (animationTriggered.value) return
 
-  animationStarted.value = true
+  animationTriggered.value = true
 
   const audio = new Audio("/audio.wav")
-  audio.play()
+  let confettiLoop: null | number = null
 
-  jsConfetti.addConfetti()
+  audio.addEventListener("canplaythrough", () => {
+    jsConfetti.addConfetti()
 
-  setTimeout(() => {
-    animate.value = true
-
-    jsConfetti.addConfetti({
-      emojis: ["🐱", "😹", "😻", "🙀"],
-      emojiSize: 40,
-      confettiNumber: 30,
-    })
-
-    const loop = setInterval(() => {
-      jsConfetti.addConfetti()
-    }, 1800)
-
-    // When the music ends
     setTimeout(() => {
-      clearInterval(loop)
-      animate.value = false
-      animationStarted.value = false
-    }, 62700)
-  }, 4000)
+      animate.value = true
+
+      jsConfetti.addConfetti({
+        emojis: ["🐱", "😹", "😻", "🙀"],
+        emojiSize: 40,
+        confettiNumber: 30,
+      })
+
+      confettiLoop = setInterval(() => {
+        jsConfetti.addConfetti()
+      }, 1800)
+    }, 4000)
+
+    audio.play()
+  })
+
+  audio.addEventListener("ended", () => {
+    if (confettiLoop) clearInterval(confettiLoop)
+    animate.value = false
+    animationTriggered.value = false
+  })
 }
 </script>
 
@@ -71,7 +61,7 @@ function startAnimation() {
           <img
             class="rounded-lg m-auto hover:opacity-60 duration-150"
             :class="{ 'animate-danse': animate }"
-            @click="incrementClickCount"
+            @click="startAnimation"
             width="200"
             height="200"
             src="./assets/profile.png"
