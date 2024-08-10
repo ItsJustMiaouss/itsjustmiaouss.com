@@ -13,12 +13,12 @@
     height: 3rem;
   }
 
-  /* From https://ellekasai.github.io/twemoji-awesome/ */
+  /* From https://github.com/SebastianAigner/twemoji-amazing (MIT) */
   .twa {
     display: inline-block;
     height: 1em;
     width: 1em;
-    margin: 0 0.1em;
+    margin: 0 .05em 0 .1em;
     vertical-align: -0.1em;
     background-repeat: no-repeat;
     background-position: center center;
@@ -26,11 +26,11 @@
   }
 
   .twa-flag-france {
-    background-image: url(https://twitter.github.io/twemoji/v/latest/svg/1f1eb-1f1f7.svg);
+    background-image: url("https://cdn.jsdelivr.net/gh/twitter/twemoji@master/assets/svg/1f1eb-1f1f7.svg");
   }
 
   .twa-heart-suit {
-    background-image: url("https://twemoji.maxcdn.com/2/svg/2665.svg");
+    background-image: url("https://cdn.jsdelivr.net/gh/twitter/twemoji@master/assets/svg/2665.svg");
   }
 }
 
