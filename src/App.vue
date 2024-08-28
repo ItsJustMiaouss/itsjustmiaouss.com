@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from "vue"
 import SocialIcon from "./components/SocialIcon.vue"
 import JSConfetti from "js-confetti"
@@ -14,7 +14,7 @@ function startAnimation() {
   animationTriggered.value = true
 
   const audio = new Audio("/audio.wav")
-  let confettiLoop: null | number = null
+  let confettiLoop = null
 
   audio.addEventListener("canplaythrough", () => {
     jsConfetti.addConfetti()
