@@ -48,7 +48,7 @@ function startAnimation() {
   <div
     class="bg-background font-poppins h-screen text-white flex flex-col gap-3 px-4 py-3">
     <!-- Header -->
-    <header>
+    <header class="hidden">
       <span class="text-2xl">ItsJustMiaouss</span>
     </header>
 
