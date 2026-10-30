@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mod on ItsJustMiaouss</title>
+    <link>http://localhost:1313/tags/mod/</link>
+    <description>Recent content in Mod on ItsJustMiaouss</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mod/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IJM&#39;s Tweaks - A popular Minecraft mod</title>
+      <link>http://localhost:1313/projects/ijmtweaks/</link>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ijmtweaks/</guid>
+      <description>A Fabric mod that tweaks the client side of Minecraft</description>
+    </item>
+  </channel>
+</rss>
