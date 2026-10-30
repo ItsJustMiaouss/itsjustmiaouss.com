@@ -1,0 +1,52 @@
+baseURL: https://itsjustmiaouss.com
+locale: en-us
+title: ItsJustMiaouss
+theme: "PaperMod"
+
+params:
+  defaultTheme: dark
+  disableThemeToggle: true
+  homeInfoParams:
+    Title: ItsJustMiaouss
+    Content: "Software engineer focused on backend systems and game dev."
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/ItsJustMiaouss"
+    - name: "Discord"
+      url: "https://itsjustmiaouss/discord"
+    - name: "Steam"
+      url: "https://steamcommunity.com/id/ItsJustMiaouss"
+
+menu:
+  main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 10
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 20
+    - identifier: github
+      name: github
+      url: https://github.com/ItsJustMiaouss
+      weight: 30
+    - identifier: discord
+      name: discord
+      url: /discord
+      weight: 40
+    - identifier: donation
+      name: ❤️ donation
+      url: https://ko-fi.com/itsjustmiaouss
+      weight: 50
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+# FuseJS
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
