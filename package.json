@@ -1,0 +1,10 @@
+{
+  "name": "itsjustmiaouss.com",
+  "version": "1.0.0",
+  "description": "Personal website for ItsJustMiaouss",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
