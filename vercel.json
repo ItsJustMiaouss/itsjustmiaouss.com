@@ -14,5 +14,15 @@
       "destination": "https://ko-fi.com/itsjustmiaouss",
       "permanent": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/data/event",
+      "destination": "https://itsjustmiaouss.goatcounter.com/count"
+    },
+    {
+      "source": "/data/script.js",
+      "destination": "https://gc.zgo.at/count.js"
+    }
   ]
 }
