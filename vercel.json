@@ -13,6 +13,11 @@
       "source": "/donate",
       "destination": "https://ko-fi.com/itsjustmiaouss",
       "permanent": false
+    },
+    {
+      "source": "/bisect",
+      "destination": "https://bisecthosting.com/IJM",
+      "permanent": false
     }
   ],
   "rewrites": [
