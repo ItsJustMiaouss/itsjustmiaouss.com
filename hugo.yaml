@@ -9,6 +9,7 @@ params:
   homeInfoParams:
     Title: ItsJustMiaouss
     Content: "Software engineer focused on backend systems and game dev."
+    imageUrl: "/images/avatar.jpg"
   socialIcons:
     - name: "GitHub"
       url: "https://github.com/ItsJustMiaouss"
@@ -16,6 +17,8 @@ params:
       url: "https://itsjustmiaouss/discord"
     - name: "Steam"
       url: "https://steamcommunity.com/id/ItsJustMiaouss"
+    - name: "KoFi"
+      url: "https://ko-fi.com/itsjustmiaouss"
 
 menu:
   main:
